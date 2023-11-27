@@ -1,8 +1,7 @@
-package br.com.jessicaraissapessoa.fpbmapsapp
+package br.com.jessicaraissapessoa.fpbmapsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.findNavController
 import br.com.jessicaraissapessoa.fpbmapsapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,8 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupListeners()
-
-        val navController = findNavController(R.id.nav_host_fragment)
     }
 
     private fun setupListeners() {

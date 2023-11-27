@@ -9,3 +9,13 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 w
 Gapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/MainActivity.kt,a\4\a498d7c77a0cccd3c5e3cc407e1904a7a34265a4
+v
+Fapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/TelaInicial.kt,4\3\43d979f2483778dfc83aea1cba21363faccbc87f
+Å
+Qapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/TelaInicialActivity.kt,4\6\46d7549a4ca76d9c6bb2850112d4cee278405b8f
+z
+Japp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/MainActivity.kt,0\d\0dd784dcf259a0d7c8dc15dea365b04a5eb4e419
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
