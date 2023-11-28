@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/presencaFragment"
+        android:title="@string/menu_presenca"
+        android:icon="@drawable/ic_menu_presenca"/>
+
+    <item
+        android:id="@+id/professorFragment"
+        android:title="@string/menu_localizar"
+        android:icon="@drawable/ic_menu_localizar"/>
+
+    <item
+        android:id="@+id/mapaFragment"
+        android:title="@string/menu_mapas"
+        android:icon="@drawable/ic_menu_mapas"/>
+
+</menu>
