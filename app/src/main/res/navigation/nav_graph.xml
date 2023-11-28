@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph.xml">
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/presencaFragment">
 
+    <fragment
+        android:id="@+id/presencaFragment"
+        android:name="br.com.jessicaraissapessoa.fpbmapsapp.ui.PresencaFragment"
+        android:label="PresencaFragment" />
+    <fragment
+        android:id="@+id/localizarFragment"
+        android:name="br.com.jessicaraissapessoa.fpbmapsapp.ui.LocalizarFragment"
+        android:label="LocalizarFragment" />
+    <fragment
+        android:id="@+id/mapaFragment"
+        android:name="br.com.jessicaraissapessoa.fpbmapsapp.ui.MapaFragment"
+        android:label="MapaFragment" />
 </navigation>

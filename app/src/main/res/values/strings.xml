@@ -14,4 +14,6 @@
     <string name="menu_perfil">Perfil</string>
     <string name="nome_usuario">Fulano de Tal</string>
     <string name="perfil_content_description">Perfil</string>
+    <string name="sua_proxima_aula">Sua próxima aula:</string>
+    <string name="icone_disciplina">Ícone disciplina</string>
 </resources>

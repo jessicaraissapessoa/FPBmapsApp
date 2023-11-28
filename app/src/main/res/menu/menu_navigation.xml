@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_menu_presenca"/>
 
     <item
-        android:id="@+id/professorFragment"
+        android:id="@+id/localizarFragment"
         android:title="@string/menu_localizar"
         android:icon="@drawable/ic_menu_localizar"/>
 
