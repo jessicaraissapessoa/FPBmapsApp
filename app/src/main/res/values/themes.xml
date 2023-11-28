@@ -1,8 +1,8 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.FPBmapsApp" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.FPBmapsApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryDark">@color/azul</item>
     </style>
 
     <style name="Theme.FPBmapsApp" parent="Base.Theme.FPBmapsApp" />

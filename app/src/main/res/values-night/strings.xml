@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FPBmapsApp</string>
     <string name="como_fazer_login_titulo">Como fazer o seu login</string>
@@ -6,6 +7,6 @@
     <string name="entrar">Entrar</string>
     <string name="helper_email">Aluno: numeroRA@ulife.com.br\nProfessor/Funcionário: nomeUsuario@ulife.com.br</string>
     <string name="helper_senha">Senha informada durante matrícula/cadastro</string>
-    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="esqueceu_a_senha"><u>Esqueceu a senha?</u></string>
     <string name="logo_content_description">Logo da FPB</string>
 </resources>

@@ -1,7 +1,8 @@
 package br.com.jessicaraissapessoa.fpbmapsapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import br.com.jessicaraissapessoa.fpbmapsapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -12,10 +13,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.icLogo
+
         setupListeners()
     }
 
     private fun setupListeners() {
-        TODO("Not yet implemented")
+        binding.btnEntrar.setOnClickListener {
+            startActivity(Intent(this, TelaInicialActivity::class.java))
+        }
     }
 }
