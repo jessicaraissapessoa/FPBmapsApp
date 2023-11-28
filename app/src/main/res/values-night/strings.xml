@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FPBmapsApp</string>
+    <string name="app_name">FPB App</string>
     <string name="como_fazer_login_titulo">Como fazer o seu login</string>
     <string name="hint_email">E-mail</string>
     <string name="hint_senha">Senha</string>
