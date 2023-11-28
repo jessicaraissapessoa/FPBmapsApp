@@ -19,3 +19,17 @@ Japp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/MainActivity.kt,0\d
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Å
+Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
+w
+G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
+w
+G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+Å
+Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+Å
+Q.idea/sonarlint/securityhotspotstore/4/3/43d979f2483778dfc83aea1cba21363faccbc87f,e\b\eb94c65f5fed982f22b18ea6d7afb10f80c5daa2
+Å
+Q.idea/sonarlint/securityhotspotstore/0/d/0dd784dcf259a0d7c8dc15dea365b04a5eb4e419,3\9\396787f41e868c656249039546d0dd8341adab62
+Å
+Q.idea/sonarlint/securityhotspotstore/4/6/46d7549a4ca76d9c6bb2850112d4cee278405b8f,a\6\a638e467681192f074b7af01984730b49d28d8e5
