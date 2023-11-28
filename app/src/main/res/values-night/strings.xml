@@ -9,4 +9,10 @@
     <string name="helper_senha">Senha informada durante matrícula/cadastro</string>
     <string name="esqueceu_a_senha"><u>Esqueceu a senha?</u></string>
     <string name="logo_content_description">Logo da FPB</string>
+    <string name="menu_presenca">Presença</string>
+    <string name="menu_localizar">Localizar</string>
+    <string name="menu_mapas">Mapas FPB</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="nome_usuario">Fulano de Tal</string>
+    <string name="perfil_content_description">Perfil</string>
 </resources>
