@@ -137,3 +137,7 @@ w
 G.idea/sonarlint/issuestore/e/0/e0ea4108d198a3d2e4e87c48063db9d2bffad652,2\a\2a9311e96aa8916b56f3a6141f738b0dde184a70
 w
 G.idea/sonarlint/issuestore/0/8/087a62fb61dd7887af84f986ce044a1c5def6423,9\b\9b9edaa865874d5fa292db072a6b3ca66b04ff3b
+|
+Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilFragment.kt,f\3\f326fb1cbe133ff597d4ff50b0403bd5087b801e
+|
+Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilActivity.kt,f\2\f25d342513e23bd73888235dea4e97573457b4ca

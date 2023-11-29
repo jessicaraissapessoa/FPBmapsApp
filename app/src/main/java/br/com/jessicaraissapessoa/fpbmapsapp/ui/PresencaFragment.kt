@@ -9,8 +9,8 @@ import br.com.jessicaraissapessoa.fpbmapsapp.databinding.FragmentPresencaBinding
 
 class PresencaFragment : Fragment() {
 
-    private var _binding: FragmentPresencaBinding? = null // set do binding (só seta uma vez)
-    private val binding get() = _binding!! //get do binding (recupera)
+    private var _binding: FragmentPresencaBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, group: ViewGroup?, state: Bundle?): View {
         _binding = FragmentPresencaBinding.inflate(inflater, group, false)
