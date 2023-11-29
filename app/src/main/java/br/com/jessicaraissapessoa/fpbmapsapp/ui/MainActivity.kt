@@ -2,7 +2,6 @@ package br.com.jessicaraissapessoa.fpbmapsapp.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import br.com.jessicaraissapessoa.fpbmapsapp.databinding.ActivityMainBinding
 
@@ -21,13 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupListeners() {
         binding.btnEntrar.setOnClickListener {
-            Log.d(TAG, "Botão Entrar clicado. Iniciando TelaInicialActivity.")
             startActivity(Intent(this, TelaInicialActivity::class.java))
-            Log.d(TAG, "foi")
         }
-    }
-
-    companion object {
-        private const val TAG = "MainActivity"
     }
 }
