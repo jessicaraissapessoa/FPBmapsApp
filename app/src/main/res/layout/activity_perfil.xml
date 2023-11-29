@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_shape_foto_perfil"
+        android:background="@drawable/shape_circulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="24dp">
+
+        <ImageView
+            android:id="@+id/foto_usuario"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_perfil"
+            app:tint="@color/branco"
+            android:contentDescription="@string/foto_perfil" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_nome_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_usuario"
+        android:textSize="26sp"
+        android:maxLines="3"
+        style="@style/TextAppearance.Material3.HeadlineLarge"
+        android:paddingTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/fl_shape_foto_perfil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_ra"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/numero_ra"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_nome_usuario" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ulife_aluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:text="@string/acessar_ulife_aluno"
+        android:textColor="@color/branco"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_ra"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_salas_virtuais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:text="@string/acessar_ulife_salas_virtuais"
+        android:textColor="@color/branco"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_ulife_aluno"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:layout_margin="24dp"
+        android:text="@string/sair_da_conta"
+        android:backgroundTint="@color/marrom"
+        android:textColor="@color/branco"
+        app:icon="@drawable/ic_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

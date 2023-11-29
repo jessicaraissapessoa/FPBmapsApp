@@ -24,4 +24,8 @@
     <string name="encontrar_salar">Encontrar sala</string>
     <string name="encontrar_professor">Encontrar professor</string>
     <string name="sair_da_conta">Sair da conta</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="numero_ra">RA: 1234567890</string>
+    <string name="acessar_ulife_salas_virtuais">Ulife Salas Virtuais</string>
+    <string name="acessar_ulife_aluno">Ulife Aluno FPB</string>
 </resources>
