@@ -10,21 +10,154 @@
         style="@style/TextAppearance.Material3.ActionBar.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingVertical="16dp"
+        android:paddingVertical="24dp"
         android:text="@string/sua_proxima_aula"
-        android:textColor="@color/laranja"
+        android:textColor="@color/preto"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/iv_disciplina"
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_aula_hoje"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_aula_hoje"
-        app:layout_constraintStart_toStartOf="@id/tv_titulo_aula_hoje"
-        android:contentDescription="@string/icone_disciplina"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo_aula_hoje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_disciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_disciplina"
+                android:src="@drawable/ic_disciplina"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_disciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_disciplina"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_disciplina"
+                app:layout_constraintTop_toTopOf="@id/iv_disciplina"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/divisor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_disciplina"
+                app:dividerColor="@color/marrom"
+                android:alpha="0.2"
+                android:layout_marginVertical="16dp"/>
+
+            <ImageView
+                android:id="@+id/iv_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/divisor1"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_disciplina"
+                android:src="@drawable/ic_professor"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_professor"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_professor"
+                app:layout_constraintTop_toTopOf="@id/iv_professor"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/divisor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_professor"
+                app:dividerColor="@color/marrom"
+                android:alpha="0.2"
+                android:layout_marginVertical="16dp"/>
+
+            <ImageView
+                android:id="@+id/iv_sala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/divisor2"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_disciplina"
+                android:src="@drawable/ic_sala"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_sala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_sala"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_sala"
+                app:layout_constraintTop_toTopOf="@id/iv_sala"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_presenca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:text="@string/marcar_presenca"
+        android:textStyle="bold"
+        android:backgroundTint="@color/laranja"
+        android:textColor="@color/branco"
+        android:layout_marginVertical="24dp"
+        app:icon="@drawable/ic_qrcode_presenca"
+        app:iconSize="32dp"
+        app:layout_constraintTop_toBottomOf="@id/cv_aula_hoje"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_encontrar_sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:layout_marginVertical="36dp"
+        android:text="@string/encontrar_salar"
+        android:textColor="@color/branco"
+        app:layout_constraintTop_toBottomOf="@id/btn_presenca"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:padding="16dp"
+        android:text="@string/encontrar_professor"
+        android:textColor="@color/branco"
+        app:layout_constraintTop_toBottomOf="@id/btn_encontrar_sala"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

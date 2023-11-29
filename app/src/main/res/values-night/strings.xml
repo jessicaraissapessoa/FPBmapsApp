@@ -17,4 +17,10 @@
     <string name="perfil_content_description">Perfil</string>
     <string name="sua_proxima_aula">Sua próxima aula:</string>
     <string name="icone_disciplina">Ícone disciplina</string>
+    <string name="aula_disciplina">Modelos, métodos e técnicas da engenharia de software</string>
+    <string name="aula_professor">Demetrius Castro</string>
+    <string name="aula_sala">A02 - Bloco A (Térreo)</string>
+    <string name="marcar_presenca">Marcar presença</string>
+    <string name="encontrar_salar">Encontrar sala</string>
+    <string name="encontrar_professor">Encontrar professor</string>
 </resources>
