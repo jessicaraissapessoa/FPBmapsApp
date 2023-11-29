@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_titulo_sala"
+        style="@style/TextAppearance.Material3.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="24dp"
+        android:text="@string/aula_sala"
+        android:maxLines="3"
+        android:textColor="@color/marrom"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_titulo_aula_hoje"
+        style="@style/TextAppearance.Material3.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="24dp"
+        android:text="@string/aula_na_sala"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo_sala" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_aula_hoje"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo_aula_hoje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_disciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_disciplina"
+                android:src="@drawable/ic_disciplina"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_disciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_disciplina"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_disciplina"
+                app:layout_constraintTop_toTopOf="@id/iv_disciplina"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/divisor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_disciplina"
+                app:dividerColor="@color/marrom"
+                android:alpha="0.2"
+                android:layout_marginVertical="16dp"/>
+
+            <ImageView
+                android:id="@+id/iv_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/divisor1"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_disciplina"
+                android:src="@drawable/ic_professor"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_professor"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_professor"
+                app:layout_constraintTop_toTopOf="@id/iv_professor"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/divisor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_professor"
+                app:dividerColor="@color/marrom"
+                android:alpha="0.2"
+                android:layout_marginVertical="16dp"/>
+
+            <ImageView
+                android:id="@+id/iv_curso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/divisor2"
+                app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/icone_curso"
+                android:src="@drawable/ic_curso"
+                app:tint="@color/azul" />
+
+            <TextView
+                android:id="@+id/tv_sala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                style="@style/MaterialAlertDialog.Material3.Body.Text"
+                android:text="@string/aula_curso"
+                android:maxLines="2"
+                app:layout_constraintLeft_toRightOf="@id/iv_curso"
+                app:layout_constraintTop_toTopOf="@id/iv_curso"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
