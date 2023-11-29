@@ -27,4 +27,10 @@
     <string name="numero_ra">RA: 1234567890</string>
     <string name="acessar_ulife_salas_virtuais">Ulife Salas Virtuais</string>
     <string name="acessar_ulife_aluno">Ulife Aluno FPB</string>
+    <string name="pesquisar_hint">Pesquisar sala ou laboratório…</string>
+    <string name="descricao_botao_de_pesquisa">Botão de Pesquisa</string>
+    <string name="identificar_sala">Identificar sala</string>
+    <string name="aula_na_sala">Aula atual na sala:</string>
+    <string name="icone_curso">Ícone curso</string>
+    <string name="aula_curso">Ciência da Computação</string>
 </resources>
