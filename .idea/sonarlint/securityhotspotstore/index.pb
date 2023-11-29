@@ -24,8 +24,6 @@ G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae
 Å
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 Å
-Q.idea/sonarlint/securityhotspotstore/4/3/43d979f2483778dfc83aea1cba21363faccbc87f,e\b\eb94c65f5fed982f22b18ea6d7afb10f80c5daa2
-Å
 Q.idea/sonarlint/securityhotspotstore/0/d/0dd784dcf259a0d7c8dc15dea365b04a5eb4e419,3\9\396787f41e868c656249039546d0dd8341adab62
 Å
 Q.idea/sonarlint/securityhotspotstore/4/6/46d7549a4ca76d9c6bb2850112d4cee278405b8f,a\6\a638e467681192f074b7af01984730b49d28d8e5
@@ -138,6 +136,8 @@ G.idea/sonarlint/issuestore/e/0/e0ea4108d198a3d2e4e87c48063db9d2bffad652,2\a\2a
 w
 G.idea/sonarlint/issuestore/0/8/087a62fb61dd7887af84f986ce044a1c5def6423,9\b\9b9edaa865874d5fa292db072a6b3ca66b04ff3b
 |
-Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilFragment.kt,f\3\f326fb1cbe133ff597d4ff50b0403bd5087b801e
-|
 Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilActivity.kt,f\2\f25d342513e23bd73888235dea4e97573457b4ca
+ç
+]app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoPesquisaFragment.kt,3\6\360ff0dfe6f869a591cd9b06f957135797e78672
+å
+\app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoIdentificarSala.kt,a\c\ac7d6d5f6a77d29255454419b1187d5ba77fd735
