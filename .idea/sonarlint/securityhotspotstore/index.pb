@@ -141,3 +141,11 @@ Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilActivity.kt,f
 ]app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoPesquisaFragment.kt,3\6\360ff0dfe6f869a591cd9b06f957135797e78672
 Œ
 \app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoIdentificarSala.kt,a\c\ac7d6d5f6a77d29255454419b1187d5ba77fd735
+”
+dapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoIdentificarSalaFragment.kt,8\1\81e481e7548710fd541e5d662134801a8d6a61d0
+|
+Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/TerreoFragment.kt,b\b\bb26dfa6b80115fc80a2eacff15b2beae1b396ec
+ƒ
+Sapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PrimeiroAndarFragment.kt,d\1\d1c342333a19b447414332c8fad2e7017b62aece
+‚
+Rapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/SegundoAndarFragment.kt,d\7\d7b9b0196b9f53efbe89b7a991a953f0bc7ebf4f

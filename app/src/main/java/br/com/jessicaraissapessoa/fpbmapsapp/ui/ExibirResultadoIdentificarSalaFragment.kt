@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import br.com.jessicaraissapessoa.fpbmapsapp.databinding.FragmentExibirResultadoIdentificarSalaBinding
 
-class ExibirResultadoIdentificarSala : Fragment() {
+class ExibirResultadoIdentificarSalaFragment : Fragment() {
 
     private var _binding: FragmentExibirResultadoIdentificarSalaBinding? = null
     private val binding get() = _binding!!

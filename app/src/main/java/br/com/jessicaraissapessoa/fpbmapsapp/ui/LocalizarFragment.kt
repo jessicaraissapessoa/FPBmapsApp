@@ -23,31 +23,25 @@ class LocalizarFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnPesquisar.setOnClickListener {
-            exibirResultadoPesquisaFragment()
+            handleSpinnerItemSelected(0)
         }
 
         binding.btnIdentificarSala.setOnClickListener {
-            exibirResultadoIdentificarSala()
+            handleSpinnerItemSelected(1)
         }
     }
 
-    private fun exibirResultadoPesquisaFragment() {
-
-        val resultadoPesquisaFragment = ExibirResultadoPesquisaFragment()
-
-        activity?.supportFragmentManager?.beginTransaction()
-            ?.replace(R.id.fragment_container, resultadoPesquisaFragment)
-            ?.addToBackStack(null)
-            ?.commit()
+    private fun handleSpinnerItemSelected(position: Int) {
+        when (position) {
+            0 -> replaceFragment(ExibirResultadoPesquisaFragment())
+            1 -> replaceFragment(ExibirResultadoIdentificarSalaFragment())
+        }
     }
 
-    private fun exibirResultadoIdentificarSala() {
-        val resultadoIdentificarSalaFragment = ExibirResultadoIdentificarSala()
-
-        activity?.supportFragmentManager?.beginTransaction()
-            ?.replace(R.id.fragment_container2, resultadoIdentificarSalaFragment)
-            ?.addToBackStack(null)
-            ?.commit()
+    private fun replaceFragment(fragment: Fragment) {
+        parentFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit()
     }
 
     override fun onDestroyView() {
