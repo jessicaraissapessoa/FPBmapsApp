@@ -33,4 +33,9 @@
     <string name="aula_na_sala">Aula atual na sala:</string>
     <string name="icone_curso">Ícone curso</string>
     <string name="aula_curso">Ciência da Computação</string>
+    <string name="selecione_o_andar_da_fpb">Selecione o andar da FPB:</string>
+    <string name="mapa1">Mapa térreo</string>
+    <string name="mapa2">Mapa primeiro andar</string>
+    <string name="mapa3">Mapa segundo andar</string>
+    <string name="content_description_botao_voltar">Botão de voltar</string>
 </resources>
