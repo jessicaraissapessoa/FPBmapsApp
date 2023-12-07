@@ -135,3 +135,5 @@ Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/TerreoFragment.kt,b
 Sapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PrimeiroAndarFragment.kt,d\1\d1c342333a19b447414332c8fad2e7017b62aece
 ‚
 Rapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/SegundoAndarFragment.kt,d\7\d7b9b0196b9f53efbe89b7a991a953f0bc7ebf4f
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
