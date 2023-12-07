@@ -19,6 +19,10 @@ class PerfilActivity : AppCompatActivity() {
 
     private fun setupListeners() {
 
+        binding.btnVoltar.setOnClickListener {
+            startActivity(Intent(this, TelaInicialActivity::class.java))
+        }
+
         binding.btnUlifeAluno.setOnClickListener {
             acessarUlife("https://aluno.fpb.edu.br/SOL/aluno/index.php/index/seguranca/dev/instituicao/136")
         }

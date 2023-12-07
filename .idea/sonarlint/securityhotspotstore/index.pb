@@ -36,8 +36,6 @@ Japp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/MapaFragment.kt,3\2
 Å
 Q.idea/sonarlint/securityhotspotstore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f,f\c\fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe
 Å
-Q.idea/sonarlint/securityhotspotstore/e/b/eb94c65f5fed982f22b18ea6d7afb10f80c5daa2,2\7\27d3799ef29efa8ec8b2a3c95be2ed6aaafb810a
-Å
 Q.idea/sonarlint/securityhotspotstore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c,4\8\4863281891d32ef796d6f680d78cb100e7c940be
 Å
 Q.idea/sonarlint/securityhotspotstore/9/c/9c69d13036ae542479c48692f6f15e839669808d,3\a\3aa35d1f956c0e617a7d06b8d7628b2ea1065e12
@@ -47,8 +45,6 @@ w
 G.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c,c\e\ce7799643a95553c6bee1d403d6cb738907a7f2c
 Å
 Q.idea/sonarlint/securityhotspotstore/3/9/396787f41e868c656249039546d0dd8341adab62,6\a\6ae60f528c7dc7cb889f7f974046567e1dc8d5c2
-w
-G.idea/sonarlint/issuestore/e/b/eb94c65f5fed982f22b18ea6d7afb10f80c5daa2,8\1\81cb385ad1019e108b5d58754dc3256cccb93bdf
 w
 G.idea/sonarlint/issuestore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c,8\4\84e95bd0ea795e5307464eb72e7bd95d9f673c00
 Å
@@ -77,8 +73,6 @@ w
 G.idea/sonarlint/issuestore/5/0/50e216b4439d2538168c3ddca9c0c2fe23bd1c02,4\7\47deea973d12bd9a7ff5999d20135c170ce61489
 Å
 Q.idea/sonarlint/securityhotspotstore/2/7/27311ef64823e3f1713889967293b01850d58dfb,9\f\9f896d0979bafff613ef162f6ca8a70e86972ba1
-w
-G.idea/sonarlint/issuestore/2/7/27d3799ef29efa8ec8b2a3c95be2ed6aaafb810a,1\f\1f8a4ccf69c8bbdcb7416927af92a53dbd334d3a
 Å
 Q.idea/sonarlint/securityhotspotstore/c/2/c2fd603c278bcde51548bf7841c89efe911e7422,c\6\c6570fbdbc4bac3d9a2415170842d565a05f8669
 Å
@@ -97,8 +91,6 @@ w
 G.idea/sonarlint/issuestore/6/a/6ae60f528c7dc7cb889f7f974046567e1dc8d5c2,8\f\8fd71ed9c6912f9ef6d6b785ae8486fab22a6f48
 Å
 Q.idea/sonarlint/securityhotspotstore/5/0/50e216b4439d2538168c3ddca9c0c2fe23bd1c02,0\c\0c0225e236baaec3a0edb17799b59bae8d233f2f
-Å
-Q.idea/sonarlint/securityhotspotstore/2/7/27d3799ef29efa8ec8b2a3c95be2ed6aaafb810a,0\5\050e664994bd42a1dd8a7e2fc17cc6782e93f606
 w
 G.idea/sonarlint/issuestore/6/2/6248197ca7a44d8bc42b5bd6cd80cd6e99143261,3\a\3a6edaa19b768031af6c9381400d36a19f99cb32
 Å
@@ -109,14 +101,10 @@ Q.idea/sonarlint/securityhotspotstore/e/3/e36d3b35b0aa033dfcf067b2cd16117a306b1e
 Q.idea/sonarlint/securityhotspotstore/4/8/4863281891d32ef796d6f680d78cb100e7c940be,a\b\ab3cdd686caf88d322c002e11a7297424e958c5a
 Å
 Q.idea/sonarlint/securityhotspotstore/8/4/84e95bd0ea795e5307464eb72e7bd95d9f673c00,7\0\7001e9040f42053505132028f11138cca58cb535
-Å
-Q.idea/sonarlint/securityhotspotstore/8/1/81cb385ad1019e108b5d58754dc3256cccb93bdf,1\0\102ff5ef4157c92e10b7e450fd40b346b4f7732a
 w
 G.idea/sonarlint/issuestore/8/4/84e95bd0ea795e5307464eb72e7bd95d9f673c00,3\5\356e6a002afeb5e7f9005a0f3c151fd17729b92e
 Å
 Q.idea/sonarlint/securityhotspotstore/8/4/84682513e64c8c8d9aa74cdcbe92794a653813d3,0\9\091b0adee78d685b1394fe6afd4d85712a87ca36
-w
-G.idea/sonarlint/issuestore/8/1/81cb385ad1019e108b5d58754dc3256cccb93bdf,0\c\0cad7f3a3a81277ce1ddd783211c1356c2d427a1
 w
 G.idea/sonarlint/issuestore/8/4/84682513e64c8c8d9aa74cdcbe92794a653813d3,9\8\98d3bc823d5d3df7e11d9b21cdb64e63bca68a81
 Å
@@ -139,8 +127,6 @@ G.idea/sonarlint/issuestore/0/8/087a62fb61dd7887af84f986ce044a1c5def6423,9\b\9b
 Lapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/PerfilActivity.kt,f\2\f25d342513e23bd73888235dea4e97573457b4ca
 ç
 ]app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoPesquisaFragment.kt,3\6\360ff0dfe6f869a591cd9b06f957135797e78672
-å
-\app/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoIdentificarSala.kt,a\c\ac7d6d5f6a77d29255454419b1187d5ba77fd735
 î
 dapp/src/main/java/br/com/jessicaraissapessoa/fpbmapsapp/ui/ExibirResultadoIdentificarSalaFragment.kt,8\1\81e481e7548710fd541e5d662134801a8d6a61d0
 |

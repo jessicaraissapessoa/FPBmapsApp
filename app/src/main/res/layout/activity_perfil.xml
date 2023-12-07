@@ -4,6 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_voltar"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/content_description_botao_voltar" />
+
     <FrameLayout
         android:id="@+id/fl_shape_foto_perfil"
         android:background="@drawable/shape_circulo"
