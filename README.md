@@ -1,4 +1,11 @@
-# README A SER CONSTRUÍDO
+# FPB Maps
+
+<br>
+
+!!! README A SER CONSTRUÍDO - VERSÃO TEMPORÁRIA !!!
+
+<br>
+<br>
 
 * Protótipo navegável de aplicativo Android com Kotlin
 * Cliente: FPB / Usuário-alvo: estudantes da FPB
